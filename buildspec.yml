@@ -12,7 +12,7 @@ phases:
   pre_build:
     commands:
       - echo Installing dependencies...
-      - yarn
+      - yarn install --frozen-lockfile
   build:
     commands:
       - echo Testing...
